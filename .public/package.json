@@ -1,0 +1,12 @@
+{
+  "name": "@barfinex/provider-ws-bridge",
+  "version": "0.1.0",
+  "description": "WebSocket bridge connecting provider services and clients in real-time.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.app.json",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "license": "Apache-2.0"
+}
