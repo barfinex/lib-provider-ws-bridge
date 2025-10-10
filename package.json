@@ -2,7 +2,7 @@
   "name": "@barfinex/lib-provider-ws-bridge",
   "version": "0.0.0-development",
   "private": false,
-  "description": "Shared Detector Plugin trade-journal for Barfinex ecosystem",
+  "description": "WebSocket bridge library for the Barfinex ecosystem. Provides a shared provider communication layer to connect services and modules through a unified real-time WebSocket API.",
   "author": "Barfinex",
   "license": "MIT",
   "homepage": "https://github.com/barfinex/lib-provider-ws-bridge#readme",
@@ -23,6 +23,21 @@
     "clean": "rimraf dist",
     "release": "semantic-release"
   },
+  "keywords": [
+    "barfinex",
+    "provider",
+    "bridge",
+    "websocket",
+    "ws",
+    "realtime",
+    "communication",
+    "messaging",
+    "nestjs",
+    "typescript",
+    "shared",
+    "infrastructure",
+    "microservices"
+  ],
   "devDependencies": {
     "typescript": "^5.6.0",
     "rimraf": "^5.0.0",
