@@ -1,5 +1,5 @@
 {
-  "name": "@barfinex/lib-provider-ws-bridge",
+  "name": "@barfinex/provider-ws-bridge",
   "version": "0.0.0-development",
   "private": false,
   "description": "WebSocket bridge library for the Barfinex ecosystem. Provides a shared provider communication layer to connect services and modules through a unified real-time WebSocket API.",
