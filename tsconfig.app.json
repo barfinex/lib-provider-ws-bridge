@@ -1,23 +1,23 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "target": "ES2022", // современный таргет для NestJS 10+
+    "target": "ES2022",
     "module": "CommonJS",
     "declaration": true,
     "emitDeclarationOnly": false,
     "rootDir": "./src",
-    "outDir": "../../dist/libs/provider-ws-bridge", // 📦 общий dist для всех libs
-    "tsBuildInfoFile": "../../dist/libs/provider-ws-bridge.tsbuildinfo", // ✅ уникальный build cache
+    "outDir": "./dist",
+    "declarationDir": "./dist",
+    "tsBuildInfoFile": "./dist.tsbuildinfo",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    /* --- для NestJS и декораторов --- */
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "useDefineForClassFields": false,
     "composite": true,
-    "baseUrl": "../../", // 🔹 общий корень для алиасов
+    "baseUrl": "../../",
     "paths": {
       "@barfinex/types": [
         "libs/types/src"
@@ -51,24 +51,4 @@
     "**/*.spec.ts",
     "**/*.test.ts"
   ],
-  "references": [
-    {
-      "path": "../types"
-    },
-    {
-      "path": "../utils"
-    },
-    {
-      "path": "../plugin-driver"
-    },
-    {
-      "path": "../orders"
-    },
-    {
-      "path": "../connectors"
-    },
-    {
-      "path": "../key"
-    }
-  ]
 }
