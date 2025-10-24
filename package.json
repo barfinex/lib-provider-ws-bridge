@@ -50,7 +50,10 @@
   },
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",
+    "@nestjs/websockets": "^10.0.0",
+    "@nestjs/platform-socket.io": "^10.0.0",
     "rxjs": "^7.8.1",
+    "socket.io": "^4.7.5",
     "ws": "^8.15.0"
   },
   "devDependencies": {
@@ -62,8 +65,12 @@
     "@semantic-release/github": "^11.0.6",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/release-notes-generator": "^14.0.0",
+    "@types/node": "^20.11.30",
     "@nestjs/common": "^10.0.0",
+    "@nestjs/websockets": "^10.0.0",
+    "@nestjs/platform-socket.io": "^10.0.0",
     "rxjs": "^7.8.1",
+    "socket.io": "^4.7.5",
     "ws": "^8.15.0"
   },
   "publishConfig": {
