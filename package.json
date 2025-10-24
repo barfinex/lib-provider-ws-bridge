@@ -41,12 +41,12 @@
     "microservices"
   ],
   "dependencies": {
-    "@barfinex/types": "1.0.14",
-    "@barfinex/utils": "1.0.1",
-    "@barfinex/plugin-driver": "1.0.0",
-    "@barfinex/orders": "1.0.0",
-    "@barfinex/connectors": "1.0.0",
-    "@barfinex/key": "1.0.0"
+    "@barfinex/types": "*",
+    "@barfinex/utils": "*",
+    "@barfinex/plugin-driver": "*",
+    "@barfinex/orders": "*",
+    "@barfinex/connectors": "*",
+    "@barfinex/key": "*"
   },
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",

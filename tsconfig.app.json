@@ -1,14 +1,14 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "target": "ES2022",
     "module": "CommonJS",
     "declaration": true,
     "emitDeclarationOnly": false,
     "rootDir": "./src",
-    "outDir": "./dist",
-    "declarationDir": "./dist",
-    "tsBuildInfoFile": "./dist.tsbuildinfo",
+    "outDir": "../../dist/libs/provider-ws-bridge",
+    "declarationDir": "../../dist/libs/provider-ws-bridge",
+    "tsBuildInfoFile": "../../dist/libs/provider-ws-bridge.tsbuildinfo",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -51,4 +51,24 @@
     "**/*.spec.ts",
     "**/*.test.ts"
   ],
+  "references": [
+    {
+      "path": "../types"
+    },
+    {
+      "path": "../utils"
+    },
+    {
+      "path": "../plugin-driver"
+    },
+    {
+      "path": "../orders"
+    },
+    {
+      "path": "../connectors"
+    },
+    {
+      "path": "../key"
+    }
+  ]
 }
