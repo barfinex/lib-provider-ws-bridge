@@ -1,0 +1,26 @@
+{
+    "extends": "./tsconfig.app.json",
+    "compilerOptions": {
+        "paths": {
+            "@barfinex/types": [
+                "@barfinex/types"
+            ],
+            "@barfinex/utils": [
+                "@barfinex/utils"
+            ],
+            "@barfinex/plugin-driver": [
+                "@barfinex/plugin-driver"
+            ],
+            "@barfinex/orders": [
+                "@barfinex/orders"
+            ],
+            "@barfinex/connectors": [
+                "@barfinex/connectors"
+            ],
+            "@barfinex/key": [
+                "@barfinex/key"
+            ]
+        }
+    },
+    "references": []
+}

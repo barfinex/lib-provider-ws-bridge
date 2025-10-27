@@ -5,10 +5,10 @@
     "module": "CommonJS",
     "declaration": true,
     "emitDeclarationOnly": false,
-    "rootDir": "./src",
+    "rootDir": "src",
     "outDir": "./dist",
     "declarationDir": "./dist",
-    "tsBuildInfoFile": "./dist.tsbuildinfo",
+    "tsBuildInfoFile": "../../dist/libs/provider-ws-bridge.tsbuildinfo",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -51,4 +51,24 @@
     "**/*.spec.ts",
     "**/*.test.ts"
   ],
+  "references": [
+    {
+      "path": "../types"
+    },
+    {
+      "path": "../utils"
+    },
+    {
+      "path": "../plugin-driver"
+    },
+    {
+      "path": "../orders"
+    },
+    {
+      "path": "../connectors"
+    },
+    {
+      "path": "../key"
+    }
+  ]
 }
